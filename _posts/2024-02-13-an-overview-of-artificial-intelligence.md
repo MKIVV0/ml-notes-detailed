@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "An overview of Artificial Intelligence"
+title:  "An Overview of Artificial Intelligence"
 date:   2024-02-13 22:17:01 +0100
 categories: post
 ---
-
+# TEST
 The broad objective of Artificial Intelligence (AI) is analyzing and building Intelligent
 Agents (IA), where the latter is able to perform tasks which, attributed to humans, are
 considered intelligent, regardless of the way they are implemented (software, hardware...).
