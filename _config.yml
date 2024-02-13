@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Intelligent Systems course detailed notes
+title: Machine Learning Deep Dive
 # email: your-email@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This blog dives deep into the Intelligent Systems course I attended in university.
@@ -55,3 +55,6 @@ plugins:
 
 minima:
   skin: dark
+
+include:
+  - _table_of_contents
