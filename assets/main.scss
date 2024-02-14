@@ -7,7 +7,7 @@
 
 /* Body Styling */
 body {
-  background-color: #1e1e1e;  /* Dark background color */
+  background-color: #161923;  /* Dark background color 1e1e1e */
   color: #cfd8dc;            /* Light text color */
   font-size: 16px;           /* Adjust as needed */
   line-height: 1.6;           /* Adjust as needed */
@@ -15,16 +15,17 @@ body {
 
 /* Header Styling */
 header {
-  background-color: #1e1e1e;  /* Dark header background color */
+  background-color: #161923;  /* Dark header background color */
+  color: #b39ddb;
 }
 
 header.site-header {
-  background-color: #333333;
+  background-color: #10121a;  /* 333333 */
 }
 
 /* Navigation Styling */
 nav {
-  background-color: #333333;  /* Dark navigation background color */
+  background-color: #10121a;  /* Dark navigation background color */
 }
 
 /* Navigation Links Styling */
@@ -35,7 +36,7 @@ nav a {
 /* Active Link Styling in Navigation */
 nav .current-page-item a {
   font-weight: bold;         /* Bold for the active link */
-  color: #1756A9;            /* Blue color for active link */
+  color: #2e64aa;            /* Blue color for active link */
 }
 
 /* Nav links styling */
@@ -50,12 +51,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.post-title.p-name {
-  color: #1756A9;
+  color: #2e64aa;
 }
 
 /* Site Title Styling */
 .site-title {
-  color: #1756A9 !important; /* Blue site title text color */
+  color: #2e64aa !important; /* Blue site title text color */
 }
 
 /* Site Description Styling */
@@ -65,13 +66,14 @@ h1.post-title.p-name {
 
 /* Regular Link Styling */
 a {
-  color: #1756A9;           /* Blue link color */
+  color: #2e64aa;           /* Blue link color */
   text-decoration: none;     /* Remove default underline */
 }
 
 /* Hover Effect for Regular Links */
 a:hover {
   text-decoration: underline; /* Add underline on hover */
+  color:#cfd8dc;
 }
 
 /* Visited Link Styling */
@@ -80,19 +82,15 @@ a:visited {
   color: #8e24aa;            // Dark purple visited link color 
 } */
 
-a:hover {
-  color:#cfd8dc;
-}
-
 /* Footer Styling */
 footer {
-  background-color: #333333;  /* Dark footer background color */
+  background-color: #10121a;  /* Dark footer background color */
   color: #b39ddb;            /* Warm purple footer text color */
 }
 
 /* Sidebar Styling (if applicable) */
 .sidebar {
-  background-color: #333333;  /* Dark sidebar background color */
+  background-color: #10121a;  /* Dark sidebar background color */
   color: #cfd8dc;            /* Light text color */
 }
 
@@ -109,7 +107,7 @@ footer {
 pre, code {
   font-size: 15px !important;        /* Adjust font size as needed */
   border-radius: 3px !important;
-  background-color: #222 !important;  /* Darker background color */
+  background-color: #10121a !important;  /* Darker background color */
 }
 
 /* Syntax Highlighting for Code Blocks */
@@ -120,25 +118,23 @@ pre, code {
 
 /* Inline Code Styling */
 p code, li code {
-  background-color: #222;  /* Dark background color for inline code */
-  color: #1756A9;         /* Blue text color for inline code */
+  background-color: #10121a;  /* Dark background color for inline code */
+  color: #4CAF50;         /* Blue text color for inline code */ //Green: 4CAF50
   padding: 2px 4px;       /* Add padding for better inline code visibility */
   border-radius: 3px;     /* Add border radius for a softer look */
 }
 
 /* Text Highlight Styling */
 ::selection {
-  background-color: #1756A9;  /* Blue color for text highlight */
+  background-color: #2e64aa;  /* Blue color for text highlight */
   color: #222;               /* Dark background for highlighted text */
-}
-
-/* Additional Styling for Specific Elements */
-.accent-element {
-  color: #1756A9;            /* Blue accent color */
-  border-color: #1756A9;      /* Blue accent color for borders */
 }
 
 /* Background color for smartphones drop-down menu */
 .nav-dropdown {
-  background-color: #333333 !important;
+  background-color: #10121a !important;
+}
+
+a {
+  color: #2e64aa !important
 }
