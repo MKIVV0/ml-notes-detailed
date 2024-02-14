@@ -1,0 +1,139 @@
+---
+---
+
+@import "minima";
+
+/* Custom CSS */
+
+/* Body Styling */
+body {
+  background-color: #1e1e1e;  /* Dark background color */
+  color: #cfd8dc;            /* Light text color */
+  font-size: 16px;           /* Adjust as needed */
+  line-height: 1.6;           /* Adjust as needed */
+}
+
+/* Header Styling */
+header {
+  background-color: #1e1e1e;  /* Dark header background color */
+}
+
+header.site-header {
+  background-color: #333333;
+}
+
+/* Navigation Styling */
+nav {
+  background-color: #333333;  /* Dark navigation background color */
+}
+
+/* Navigation Links Styling */
+nav a {
+  color: #b39ddb;             /* Warm purple navigation link text color */
+}
+
+/* Active Link Styling in Navigation */
+nav .current-page-item a {
+  font-weight: bold;         /* Bold for the active link */
+  color: #1756A9;            /* Orange color for active link */
+}
+
+/* Nav links styling */
+.site-nav .page-link {
+  color: #cfd8dc;            /* Light text color for links */
+  line-height: 1.5;          /* Adjust line height as needed */
+}
+
+/* Header Text Styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #cfd8dc;           /* Light text color for headers */
+}
+
+h1.post-title.p-name {
+  color: #1756A9;
+}
+
+/* Site Title Styling */
+.site-title {
+  color: #1756A9 !important; /* Deep orange site title text color */
+}
+
+/* Site Description Styling */
+.site-description {
+  color: #b39ddb;           /* Warm purple secondary text color */
+}
+
+/* Regular Link Styling */
+a {
+  color: #1756A9;           /* Deep orange link color */
+  text-decoration: none;     /* Remove default underline */
+}
+
+/* Hover Effect for Regular Links */
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Visited Link Styling */
+/*
+a:visited {
+  color: #8e24aa;            // Dark purple visited link color 
+} */
+
+a:hover {
+  color:#cfd8dc;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333333;  /* Dark footer background color */
+  color: #b39ddb;            /* Warm purple footer text color */
+}
+
+/* Sidebar Styling (if applicable) */
+.sidebar {
+  background-color: #333333;  /* Dark sidebar background color */
+  color: #cfd8dc;            /* Light text color */
+}
+
+/* Override Code Block Styling in Content */
+.markdown-body pre {
+  background-color: #222 !important;  /* Darker background color for code blocks */
+  color: #cfd8dc !important;          /* Light text color for code blocks */
+  border-radius: 5px !important;     /* Add border radius for a softer look */
+  overflow: auto !important;         /* Allow horizontal scrolling for large code blocks */
+  padding: 10px !important;          /* Add padding for better readability */
+}
+
+/* Override Global Code Styling */
+pre, code {
+  font-size: 15px !important;        /* Adjust font size as needed */
+  border-radius: 3px !important;
+  background-color: #222 !important;  /* Darker background color */
+}
+
+/* Syntax Highlighting for Code Blocks */
+.highlight {
+  background-color: #BFD3C1 !important;  /* Dark warm brown background for highlighted code */
+  color: #cfd8dc !important;             /* Light text color for highlighted code */
+}
+
+/* Inline Code Styling */
+p code, li code {
+  background-color: #222;  /* Dark background color for inline code */
+  color: #1756A9;         /* Deep orange text color for inline code */
+  padding: 2px 4px;       /* Add padding for better inline code visibility */
+  border-radius: 3px;     /* Add border radius for a softer look */
+}
+
+/* Text Highlight Styling */
+::selection {
+  background-color: #1756A9;  /* Deep orange color for text highlight */
+  color: #222;               /* Dark background for highlighted text */
+}
+
+/* Additional Styling for Specific Elements */
+.accent-element {
+  color: #1756A9;            /* Orange accent color */
+  border-color: #1756A9;      /* Orange accent color for borders */
+}
