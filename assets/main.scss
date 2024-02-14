@@ -35,7 +35,7 @@ nav a {
 /* Active Link Styling in Navigation */
 nav .current-page-item a {
   font-weight: bold;         /* Bold for the active link */
-  color: #1756A9;            /* Orange color for active link */
+  color: #1756A9;            /* Blue color for active link */
 }
 
 /* Nav links styling */
@@ -55,7 +55,7 @@ h1.post-title.p-name {
 
 /* Site Title Styling */
 .site-title {
-  color: #1756A9 !important; /* Deep orange site title text color */
+  color: #1756A9 !important; /* Blue site title text color */
 }
 
 /* Site Description Styling */
@@ -65,7 +65,7 @@ h1.post-title.p-name {
 
 /* Regular Link Styling */
 a {
-  color: #1756A9;           /* Deep orange link color */
+  color: #1756A9;           /* Blue link color */
   text-decoration: none;     /* Remove default underline */
 }
 
@@ -121,19 +121,24 @@ pre, code {
 /* Inline Code Styling */
 p code, li code {
   background-color: #222;  /* Dark background color for inline code */
-  color: #1756A9;         /* Deep orange text color for inline code */
+  color: #1756A9;         /* Blue text color for inline code */
   padding: 2px 4px;       /* Add padding for better inline code visibility */
   border-radius: 3px;     /* Add border radius for a softer look */
 }
 
 /* Text Highlight Styling */
 ::selection {
-  background-color: #1756A9;  /* Deep orange color for text highlight */
+  background-color: #1756A9;  /* Blue color for text highlight */
   color: #222;               /* Dark background for highlighted text */
 }
 
 /* Additional Styling for Specific Elements */
 .accent-element {
-  color: #1756A9;            /* Orange accent color */
-  border-color: #1756A9;      /* Orange accent color for borders */
+  color: #1756A9;            /* Blue accent color */
+  border-color: #1756A9;      /* Blue accent color for borders */
+}
+
+/* Background color for smartphones drop-down menu */
+.nav-dropdown {
+  background-color: #333333 !important;
 }
